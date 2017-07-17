@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Accounts>
+  <UserAccount>
+    <fullName></fullName>
+    <emailId></emailId>
+    <password></password>
+    <securityQues></securityQues>
+    <securityAns></securityAns>
+    <userId></userId>
+  </UserAccount>
+</Accounts>

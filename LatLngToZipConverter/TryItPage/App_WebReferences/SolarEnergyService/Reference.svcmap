@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="33e5254d-32fb-4e25-9958-61fb202dd2ec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:12097/SolarIntensityIndex.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SolarIntensityIndex.xsd" MetadataType="Schema" ID="662656d4-7867-4129-82d4-c4e974262857" SourceId="1" SourceUrl="http://localhost:12097/SolarIntensityIndex.svc?xsd=xsd1" />
+    <MetadataFile FileName="SolarIntensityIndex1.xsd" MetadataType="Schema" ID="21d07873-724a-429d-9feb-932848eb1126" SourceId="1" SourceUrl="http://localhost:12097/SolarIntensityIndex.svc?xsd=xsd0" />
+    <MetadataFile FileName="SolarIntensityIndex.disco" MetadataType="Disco" ID="9d1c14d2-0e8b-4e80-b3f2-445128247792" SourceId="1" SourceUrl="http://localhost:12097/SolarIntensityIndex.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="05830b20-1f4f-4bd9-ac26-001e89d2c4f3" SourceId="1" SourceUrl="http://localhost:12097/SolarIntensityIndex.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

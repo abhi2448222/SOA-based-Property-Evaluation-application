@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9d3545ad-0223-48d6-aa74-73f313594b1d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:33932/UserAccountCreationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="2f28be2f-8910-4d49-ade4-59848f6cb8c9" SourceId="1" SourceUrl="http://localhost:33932/UserAccountCreationService.svc?wsdl" />
+    <MetadataFile FileName="UserAccountCreationService.xsd" MetadataType="Schema" ID="3c009255-b2b4-4514-a933-97bffe12706e" SourceId="1" SourceUrl="http://localhost:33932/UserAccountCreationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="UserAccountCreationService.disco" MetadataType="Disco" ID="e14c8c6c-5b91-4f4b-ae3d-449d62c5f8d5" SourceId="1" SourceUrl="http://localhost:33932/UserAccountCreationService.svc?disco" />
+    <MetadataFile FileName="UserAccountCreationService1.xsd" MetadataType="Schema" ID="dd799c28-9772-4dc5-80da-b55875ff621b" SourceId="1" SourceUrl="http://localhost:33932/UserAccountCreationService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

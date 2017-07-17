@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WeatherForecastService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WeatherForecastService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="WeatherForecastObj">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="current_humidity" type="xs:int" />
+      <xs:element minOccurs="0" name="current_temp_f" type="xs:double" />
+      <xs:element minOccurs="0" name="dates" nillable="true" type="tns:ArrayOfDate" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="region" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WeatherForecastObj" nillable="true" type="tns:WeatherForecastObj" />
+  <xs:complexType name="ArrayOfDate">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Date" nillable="true" type="tns:Date" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDate" nillable="true" type="tns:ArrayOfDate" />
+  <xs:complexType name="Date">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="avghumidity" type="xs:double" />
+      <xs:element minOccurs="0" name="avgtemp_f" type="xs:double" />
+      <xs:element minOccurs="0" name="date" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Date" nillable="true" type="tns:Date" />
+</xs:schema>
